@@ -63,7 +63,14 @@ ANS: It will store a package in maven local repo ---> /root/mavenlocalrepo/com/ 
 mvn clean deploy
 
 
-b4devopshyd.pem
+SCP
+====
+
+scp -i ~/Downloads/ravinew.pem ec2-user@13.233.88.206:/home/ec2-user/log.txt ~/Downloads/
 
 
-scp -i ~/Downloads/b4devopshyd.pem backend.zip ec2-user@18.61.75.128:/home/ec2-user/
+scp -i ~/Downloads/ravinew.pem ~/Downloads/log4j-1.2.11.jar ec2-user@13.233.88.206:/home/ec2-user/log4j-1.2.11.jar
+
+
+
+
